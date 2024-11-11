@@ -1,0 +1,37 @@
+/*------------------------------------*\
+    $標題區塊
+\*------------------------------------*/
+header {
+    font-weight: 900;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background:  var(--dark);
+    color: var(--light);
+}
+
+.top_mark {
+    padding: 0.1em;
+    border-width: 0 0 0 0;
+    border-style: solid;
+    border-color: var(--dark);
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+.title-point{
+    font-size: var(--fs-xxl);
+    display: block;
+    margin-bottom: 16px;
+}
+.title-menu {
+    font-size: var(--fs-xxs);
+    color: var(--light);
+    letter-spacing: 0.2em;
+}
+
+
+
+

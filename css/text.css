@@ -1,0 +1,82 @@
+.title-size {
+    font-size: var(--fs-l);
+    text-align: center;
+}
+
+.title-date {
+    font-size: var(--fs-normal);
+    text-align: right;
+}
+
+.size-l {
+    font-size: var(--fs-m);
+    font-weight: var(--fw-600);
+}
+
+.size-m {
+    font-size: var(--fs-s);
+    font-weight: var(--fw-600);
+}
+
+@media (max-width:768px) {
+    .title-size {
+        font-size: var(--fs-m);
+    }
+
+    .title-date {
+        font-size: var(--fs-normal);
+        text-align: right;
+    }
+
+    .size-l {
+        font-size:var(--fs-s);
+        font-weight: var(--fw-600);
+    }
+
+    .size-m {
+        font-size: var(--fs-xs);
+    }
+}
+
+/*------------------------------------*\
+    $顏色設定
+\*------------------------------------*/
+
+.txt-pink {
+    color: var(--pink);
+}
+
+.txt-red {
+    color: var(--red);
+}
+
+.txt-blue {
+    color: var(--blue);
+}
+
+.txt-gray {
+    color: var(--gray);
+}
+
+.txt-dark {
+    color: var(--dark);
+}
+
+.bg-yellow {
+    background: var(--yellow);
+}
+
+.bg-pink {
+    background: var(--pink);
+    color: var(--light);
+}
+
+.bg-blue {
+    background: var(--blue);
+    color: var(--light);
+}
+
+.bg-red {
+    background: var(--special-red);
+    color: var(--light);
+}
